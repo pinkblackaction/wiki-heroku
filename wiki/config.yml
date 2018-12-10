@@ -126,6 +126,10 @@ git:
 
     sslVerify: true
 
+  signature:
+    name: Pink/Black Action
+    email: pinkblackaction@gmail.com
+
   # Default email to use as commit author
   serverEmail: $(WIKI_SERVER_EMAIL)
 

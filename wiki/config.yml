@@ -115,14 +115,14 @@ git:
   auth:
 
     # Type: basic or ssh
-    type: basic
+    type: ssh
 
     # Only for Basic authentication:
     username: $(WIKI_GIT_USERNAME)
     password: $(WIKI_GIT_PASSWORD)
 
     # Only for SSH authentication:
-    privateKey: /etc/wiki/keys/git.pem
+    privateKey: ./key.pem
 
     sslVerify: true
 

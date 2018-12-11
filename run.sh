@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo $PRIVATE_KEY > ./wiki/key.pem
-cat ./wiki/key.pem
+echo -e "$PRIVATE_KEY" > ./wiki/key.pem
 
 cd wiki
 

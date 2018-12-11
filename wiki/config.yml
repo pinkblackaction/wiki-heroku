@@ -122,7 +122,7 @@ git:
     #password: $(WIKI_GIT_PASSWORD)
 
     # Only for SSH authentication:
-    privateKey: ./key.pem
+    privateKey: /app/wiki/key.pem
 
     sslVerify: true
 
